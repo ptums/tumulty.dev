@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: 'Lato', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

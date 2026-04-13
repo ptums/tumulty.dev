@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+---
+
+<Layout>
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-100">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between" aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="/" class="font-display text-xl font-bold text-emerald-800 tracking-tight hover:text-emerald-600 transition-colors">
+        Tumulty
+      </a>
+
+      <!-- Desktop nav links (hidden on mobile) -->
+      <ul class="hidden md:flex items-center gap-8 list-none m-0 p-0">
+        <li>
+          <a href="#services" class="text-sm text-gray-600 hover:text-emerald-600 transition-colors">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="text-sm text-gray-600 hover:text-emerald-600 transition-colors">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="text-sm text-gray-600 hover:text-emerald-600 transition-colors">
+            Contact
+          </a>
+        </li>
+      </ul>
+
+      <!-- CTA — always visible -->
+      <a
+        href="https://audit.tumulty.dev"
+        class="inline-block bg-emerald-800 text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-emerald-600 transition-colors"
+      >
+        Take the free audit
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- placeholder — hero next -->
+  </main>
+</Layout>
