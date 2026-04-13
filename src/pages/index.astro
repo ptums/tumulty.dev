@@ -243,13 +243,13 @@ import '../styles/global.css';
           <!-- Right: story -->
           <div class="flex flex-col gap-6 text-gray-600 leading-relaxed">
             <p>
-              I started Tumulty because I kept seeing the same pattern: businesses investing in software nobody actually used, or chasing AI headlines that had nothing to do with how their teams worked day to day.
+              I've spent years as a software consultant building custom web applications, SaaS platforms, automation scripts, and APIs for startups, small businesses, and digital agencies — real-time event platforms, Shopify storefronts, e-commerce integrations. The kind of work where if it doesn't perform, clients notice immediately.
             </p>
             <p>
-              My approach starts with listening. Before I recommend anything, I want to understand how your business actually runs — what tools your team lives in, where the friction is, and what a good day looks like for the people doing the work.
+              That background shapes how I approach AI. I'm not an evangelist. I've seen what happens when technology gets rolled out without a clear understanding of the people using it. Before I recommend anything, I want to understand how your business actually runs — what your team works in, where the friction is, and what a good day looks like.
             </p>
             <p>
-              Automation should free your team up to do the things only humans can do. When I build a workflow or modernize a system, the measure of success isn't whether the technology is impressive. It's whether your team is less stressed and more effective the week after we launch.
+              Automation should free people up to do the things only humans can do. The measure of success isn't whether the technology is impressive. It's whether your team is less stressed and more effective the week after we launch.
             </p>
             <p class="font-bold text-gray-900">
               I take that personally.
@@ -260,6 +260,90 @@ import '../styles/global.css';
       </div>
     </section>
 
-    <!-- placeholder — CTA banner next -->
+    <!-- ============================================================
+         CTA BANNER
+    ============================================================ -->
+    <section class="bg-emerald-800 py-16 md:py-20">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="flex flex-col gap-3">
+          <h2 class="font-display text-2xl md:text-3xl font-extrabold text-white leading-snug">
+            Find out where AI can help your business.
+          </h2>
+          <p class="text-emerald-200 text-base max-w-md">
+            The free audit takes 15 minutes. You'll walk away knowing exactly where to start — no commitment required.
+          </p>
+        </div>
+        <a
+          href="https://audit.tumulty.dev"
+          class="shrink-0 inline-block bg-white text-emerald-800 font-bold px-8 py-4 rounded-lg hover:bg-emerald-50 transition-colors whitespace-nowrap"
+        >
+          Take the free audit
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section id="contact" class="bg-gray-50 py-20 md:py-28">
+      <div class="max-w-6xl mx-auto px-6">
+
+        <div class="max-w-xl">
+          <p class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Get in touch</p>
+          <h2 class="font-display text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">Contact</h2>
+          <p class="text-gray-600 leading-relaxed mb-10">
+            Have a project in mind, or just want to talk through what's possible? I'm happy to have an honest conversation about whether I can help — no pitch, no pressure.
+          </p>
+
+          <div class="flex flex-col gap-5">
+            <!-- Email -->
+            <a
+              href="mailto:peter@tumulty.dev"
+              class="inline-flex items-center gap-3 text-gray-900 font-bold hover:text-emerald-700 transition-colors group"
+            >
+              <span class="flex items-center justify-center w-10 h-10 rounded-lg bg-white border border-gray-200 text-emerald-700 group-hover:border-emerald-300 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="M2 7l10 7 10-7"/>
+                </svg>
+              </span>
+              peter@tumulty.dev
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/petertumulty"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-3 text-gray-900 font-bold hover:text-emerald-700 transition-colors group"
+            >
+              <span class="flex items-center justify-center w-10 h-10 rounded-lg bg-white border border-gray-200 text-emerald-700 group-hover:border-emerald-300 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="3"/>
+                  <path d="M7 10v7"/>
+                  <path d="M7 7v.01"/>
+                  <path d="M11 17v-4a2 2 0 0 1 4 0v4"/>
+                  <path d="M11 10v7"/>
+                </svg>
+              </span>
+              linkedin.com/in/petertumulty
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+    ============================================================ -->
+    <footer class="bg-white border-t border-gray-100 py-6">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-400">
+        <span class="font-display font-bold text-emerald-800">Tumulty</span>
+        <span>&copy; {new Date().getFullYear()} Peter Tumulty. All rights reserved.</span>
+      </div>
+    </footer>
+
   </main>
+</Layout>
 </Layout>
